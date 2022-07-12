@@ -1,7 +1,7 @@
 {
   "name": "teamfe-lit-user-card",
   "private": false,
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple web component",
   "main": "user-card.js",
   "module": "user-card.js",
