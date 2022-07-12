@@ -49,9 +49,7 @@ export class UserCard extends LitElement {
     @property({
         converter: (value: string | null) => {
           if (value){
-              console.log(value);
               return JSON.parse(value);
-
           }
           else
             return undefined;
@@ -85,7 +83,7 @@ export class UserCard extends LitElement {
                 </div>
                 <br>
                 <div>
-                    <button @click=${() => {this.dispatchEvent(new Event('custom-event'))}}>EDIT USER</button>
+                    <button @click=${() => {this.dispatchEvent(new Event('customEvent'))}}>EDIT USER</button>
                 </div>
             </div>
             <img class="user-img" src="${this.user?.imgUrl}">
