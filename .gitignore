@@ -3,9 +3,9 @@
 /test/
 custom-elements.json
 # top level source
-my-element.js
-my-element.js.map
-my-element.d.ts
-my-element.d.ts.map
+user-card.js
+user-card.js.map
+user-card.d.ts
+user-card.d.ts.map
 # only generated for size check
-my-element.bundled.js
+user-card.bundled.js

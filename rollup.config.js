@@ -10,9 +10,9 @@ import resolve from '@rollup/plugin-node-resolve';
 import replace from '@rollup/plugin-replace';
 
 export default {
-  input: 'my-element.js',
+  input: 'user-card.js',
   output: {
-    file: 'my-element.bundled.js',
+    file: 'user-card.bundled.js',
     format: 'esm',
   },
   onwarn(warning) {
